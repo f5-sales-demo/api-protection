@@ -20,7 +20,6 @@
 
 F5 XC API security
 
-
 ## Documentation
 
 Full documentation is available at **[https://f5-sales-demo.github.io/api-protection/](https://f5-sales-demo.github.io/api-protection/)**.
