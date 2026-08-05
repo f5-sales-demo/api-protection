@@ -1,28 +1,28 @@
-# DDoS
+# API Security
 
 🌐 English |
-[日本語](https://f5-sales-demo.github.io/ddos/ja/) |
-[한국어](https://f5-sales-demo.github.io/ddos/ko/) |
-[简体中文](https://f5-sales-demo.github.io/ddos/zh-cn/) |
-[繁體中文](https://f5-sales-demo.github.io/ddos/zh-tw/) |
-[Español](https://f5-sales-demo.github.io/ddos/es/) |
-[Português](https://f5-sales-demo.github.io/ddos/pt-br/) |
-[Français](https://f5-sales-demo.github.io/ddos/fr/) |
-[Deutsch](https://f5-sales-demo.github.io/ddos/de/) |
-[Italiano](https://f5-sales-demo.github.io/ddos/it/) |
-[العربية](https://f5-sales-demo.github.io/ddos/ar/) |
-[हिन्दी](https://f5-sales-demo.github.io/ddos/hi/) |
-[ไทย](https://f5-sales-demo.github.io/ddos/th/)
+[日本語](https://f5-sales-demo.github.io/api-protection/ja/) |
+[한국어](https://f5-sales-demo.github.io/api-protection/ko/) |
+[简体中文](https://f5-sales-demo.github.io/api-protection/zh-cn/) |
+[繁體中文](https://f5-sales-demo.github.io/api-protection/zh-tw/) |
+[Español](https://f5-sales-demo.github.io/api-protection/es/) |
+[Português](https://f5-sales-demo.github.io/api-protection/pt-br/) |
+[Français](https://f5-sales-demo.github.io/api-protection/fr/) |
+[Deutsch](https://f5-sales-demo.github.io/api-protection/de/) |
+[Italiano](https://f5-sales-demo.github.io/api-protection/it/) |
+[العربية](https://f5-sales-demo.github.io/api-protection/ar/) |
+[हिन्दी](https://f5-sales-demo.github.io/api-protection/hi/) |
+[ไทย](https://f5-sales-demo.github.io/api-protection/th/)
 
-[![GitHub Pages Deploy](https://github.com/f5-sales-demo/ddos/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/f5-sales-demo/ddos/actions/workflows/github-pages-deploy.yml)
-[![Repository Settings](https://github.com/f5-sales-demo/ddos/actions/workflows/enforce-repo-settings.yml/badge.svg)](https://github.com/f5-sales-demo/ddos/actions/workflows/enforce-repo-settings.yml)
-[![License](https://img.shields.io/github/license/f5-sales-demo/ddos)](LICENSE)
+[![GitHub Pages Deploy](https://github.com/f5-sales-demo/api-protection/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/f5-sales-demo/api-protection/actions/workflows/github-pages-deploy.yml)
+[![Repository Settings](https://github.com/f5-sales-demo/api-protection/actions/workflows/enforce-repo-settings.yml/badge.svg)](https://github.com/f5-sales-demo/api-protection/actions/workflows/enforce-repo-settings.yml)
+[![License](https://img.shields.io/github/license/f5-sales-demo/api-protection)](LICENSE)
 
-F5 XC DDoS protection
+F5 XC API security
 
 ## Documentation
 
-Full documentation is available at **[https://f5-sales-demo.github.io/ddos/](https://f5-sales-demo.github.io/ddos/)**.
+Full documentation is available at **[https://f5-sales-demo.github.io/api-protection/](https://f5-sales-demo.github.io/api-protection/)**.
 
 ## Contributing
 
