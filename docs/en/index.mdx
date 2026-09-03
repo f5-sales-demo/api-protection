@@ -1,11 +1,58 @@
 ---
-title: API Security
-description: API discovery, protection, and security policies for F5 Distributed Cloud.
-hero:
-  tagline: API discovery, protection, and security policies.
-  image:
-    html: '<img src="/api-protection/images/hero.svg" alt="F5 XC API Security" />'
-sidebar:
-  hidden: true
-  order: 0
+title: F5 Distributed Cloud API Protection
+description: OpenAPI schema validation, automated API discovery, positive security models, and per-endpoint rate limiting.
 ---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+**F5 Distributed Cloud API Protection** secures REST and GraphQL APIs by enforcing positive security models, validating payloads against OpenAPI (Swagger) specifications, and discovering shadow or undocumented endpoints.
+
+## API Inspection Engine
+
+```text
++-------------------------------------------------------------------------+
+|                     API Security Inspection Pipeline                    |
+|                                                                         |
+|  API Client Request                                                     |
+|        |                                                                |
+|        v                                                                |
+|  +-------------------------------------------------------------------+  |
+|  | Authentication & Token Inspection (JWT / OAuth2 / API Key)        |  |
+|  +---------------------------------+---------------------------------+  |
+|                                    |                                    |
+|                                    v                                    |
+|  +-------------------------------------------------------------------+  |
+|  | OpenAPI Schema Conformance: Path, Query, Header, Body Validation  |  |
+|  +---------------------------------+---------------------------------+  |
+|                                    |                                    |
+|                                    v                                    |
+|  +-------------------------------------------------------------------+  |
+|  | Sensitive Data Masking & PII Redaction                            |  |
+|  +---------------------------------+---------------------------------+  |
+|                                    |                                    |
+|         +--------------------------+--------------------------+         |
+|         | Valid Payload                                       | Invalid |
+|         v                                                     v         |
+|  +-----------------------------+               +---------------------+  |
+|  | Forward to API Microservice |               | HTTP 400 Bad Request|  |
+|  | Origin Pool                 |               | (Schema Violation)  |  |
+|  +-----------------------------+               +---------------------+  |
++-------------------------------------------------------------------------+
+```
+
+## Core Capabilities
+
+<CardGrid>
+  <Card title="OpenAPI Schema Validation" icon="document">
+    Enforces strict structural compliance for JSON/XML request bodies against uploaded OpenAPI 3.0/3.1 specs.
+  </Card>
+  <Card title="Shadow API Discovery" icon="star">
+    Passively observes traffic to identify unmanaged or rogue endpoints and parameter drift.
+  </Card>
+  <Card title="Granular Rate Limiting" icon="puzzle">
+    Applies per-endpoint, per-user, or per-IP token bucket rate limits to prevent brute-force abuse.
+  </Card>
+  <Card title="Sensitive Data Scrubbing" icon="seti:lock">
+    Automatically detects and redacts credit card numbers (PCI-DSS), SSNs, and private tokens.
+  </Card>
+</CardGrid>
